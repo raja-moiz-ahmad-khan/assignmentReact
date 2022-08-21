@@ -1,0 +1,47 @@
+.head-table {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.content-table {
+  /* border-collapse: separate; */
+
+  border-bottom: 1px black solid;
+  border-spacing: 0 15px;
+}
+
+th {
+  background-color: #4287f5;
+  color: white;
+  padding: 5px;
+}
+
+th,
+td {
+  width: 150px;
+  text-align: center;
+  /* padding: 5px; */
+}
+td {
+  padding: 15px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.array-length {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 35px;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.del-button{
+  margin-top: 13px;
+}

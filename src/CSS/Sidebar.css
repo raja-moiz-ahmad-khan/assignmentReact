@@ -1,0 +1,16 @@
+.main-sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.sidebar-p {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 5px 5px 5px;
+}
